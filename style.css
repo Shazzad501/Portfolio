@@ -1,0 +1,254 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Navbar Start */
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 5px white;
+  top: 0px;
+  position: fixed;
+  z-index: 4;
+}
+.nav-bar div:nth-child(1) {
+  width: 27%;
+  height: 80px;
+  background-color: transparent;
+  margin: 5px 0px 5px 20px;
+  overflow: hidden;
+}
+.nav-bar div:nth-child(1) h3 {
+  color: White;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.nav-bar div:nth-child(1) h3 span {
+  color: #f4377c;
+}
+.nav-bar div:nth-child(2) {
+  width: 56%;
+  height: 80px;
+  background-color: transparent;
+  margin: 5px 0px 5px 0px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+.nav-bar div:nth-child(2) ul {
+  list-style: none;
+  float: left;
+  display: flex;
+}
+.nav-bar div:nth-child(2) ul li {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 6px;
+  box-shadow: 0px 0px 5px white;
+  padding: 10px;
+  width: 80px;
+}
+.nav-bar div:nth-child(2) ul li:nth-child(1) {
+  margin-left: 200px;
+}
+.nav-bar div:nth-child(3) {
+  width: 15%;
+  height: 80px;
+  margin: auto;
+  background-color: transparent;
+}
+
+.nav-bar div:nth-child(3) img {
+  width: 50px;
+  height: 50px;
+  margin-left: 70%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Navbar close */
+
+/* Header saction Start */
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header div:nth-child(1) {
+  width: 60%;
+  height: 100%;
+  padding-top: 280px;
+  text-align: center;
+}
+.header div:nth-child(1) h2 {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 2px white;
+}
+.header div:nth-child(1) h2 span {
+  color: #f4377c;
+}
+.header div:nth-child(1) p {
+  color: white;
+  font-size: 30px;
+}
+.header div:nth-child(1) button {
+  width: 120px;
+  height: 40px;
+  box-shadow: 0px 0px 5px white;
+  background-color: transparent;
+  margin: 25px;
+  margin-top: 40px;
+}
+.header div:nth-child(1) button span {
+  color: white;
+  font-size: 20px;
+}
+
+.header div:nth-child(2) {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+.header div:nth-child(2) img {
+  width: auto;
+  height: auto;
+  margin-top: 48px;
+}
+
+/* Header section close */
+
+/* Service section start */
+
+.service {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+.service h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.service p {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.service2 {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+}
+.service2 div {
+  width: 28%;
+  height: 290px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  background-color: #191919;
+  box-shadow: 0px 0px 5px white;
+}
+.service2 div img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.service2 div h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.service2 p {
+  font-size: 19x;
+}
+.service2 div:nth-child(1) {
+  margin-left: 70px;
+}
+.service2 div:nth-child(3) {
+  margin-right: 50px;
+}
+.service2 div button {
+  background-color: transparent;
+  width: 120px;
+  height: 35px;
+  box-shadow: 0px 0px 5px #f4377c;
+  margin: 20px;
+}
+
+.service2 div button span {
+  color: white;
+  font-size: 17px;
+}
+/* service section close */
+
+/* about section start */
+.about {
+  width: 100%;
+  height: 500px;
+  background-color: #191919;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about div {
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  text-align: center;
+  align-items: center;
+}
+.about div:nth-child(1) img {
+  margin-top: -76px;
+  padding-left: 200px;
+}
+.about div:nth-child(2) {
+  text-align: left;
+  color: white;
+}
+.about div:nth-child(2) h2 {
+  margin-top: 120px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.about div:nth-child(2) p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.Full span {
+  color: #f4377c;
+}
+.about-btn{
+  width: 120px;
+  background-color:transparent;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0px 0px 5px white;
+}
+.about div:nth-child(2) button span {
+  color: white;
+}
+/* about section close */
