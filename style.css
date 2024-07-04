@@ -77,14 +77,31 @@
 
 /* Navbar close */
 
+
+
+
+
+
+
+
+
+
+
+
 /* Header saction Start */
 
 .header {
-  background-color: black;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.966), rgba(0, 0, 0, 0.767)), 
+  url(image/coding.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .header div:nth-child(1) {
@@ -115,6 +132,13 @@
   background-color: transparent;
   margin: 25px;
   margin-top: 40px;
+}
+.header div:nth-child(1) button:hover{
+  background-color: #f4377c;
+}
+.header div:nth-child(1) button:hover span{
+  color: black;
+  font-weight: bold;
 }
 .header div:nth-child(1) button span {
   color: white;
